@@ -33,6 +33,7 @@
             'btn-green': '#63B76D',
             'color-blue': '#102861',
             'btn-blue': '#2A4D97',
+            'color-input': '#C4C4C4',
           }
         }
       }
@@ -42,6 +43,7 @@
 
 <body class="font-sora">
   <!-- https://github.com/giash459/nature-s-platter -->
+   <!-- https://giash459.github.io/nature-s-platter/ -->
   <!-- header section -->
   <header class="bg-gradient-to-b from-color-top to-color-bottom">
     <!-- navbar section -->
@@ -290,7 +292,7 @@
       </div>
     </section>
     <!-- Arrival & Offers section -->
-    <section class="w-11/12 mx-auto my-20">
+    <section class="w-11/12 mx-auto mt-20">
       <h2 class="text-4xl font-semibold mb-10 text-color-accent">Arrival & Offers</h2>
       <!-- cards  -->
       <div class="flex flex-col lg:flex-row gap-5">
@@ -319,7 +321,53 @@
         </div>
       </div>
     </section>
+    <!-- Get Grocery News! section -->
+     <section class="w-11/12 mx-auto bg-color-gray rounded-2xl p-20 relative -bottom-52">
+      <div class="hero">
+        <div class="hero-content flex-col lg:flex-row">
+          <img
+            src="images/vegetable-busket.png"
+            class="" />
+          <div>
+            <h1 class="text-5xl font-bold">Get Grocery News!</h1>
+            <p class="py-6 text-xl">
+              Exclusive training tips, ticks, product deals and more.
+            </p>
+            <input class="text-color-input bg-white rounded-lg px-5 py-3 mb-5" placeholder="Enter email...." type="text" name="" id="">
+            <br>
+            <button class="bg-color-accent px-6 py-2 rounded-lg text-white text-2xl">Subscribe</button>
+          </div>
+        </div>
+      </div>
+     </section>
   </main>
+  <!-- footer section -->
+  <footer class="bg-color-accent">
+    <div class="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-60 pb-20">
+        <!-- first -->
+        <div>
+            <img class="mb-5" src="images/logo-footer.png" alt="">
+            <p class="text-xl text-white">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br>
+                friends</p>
+        </div>
+        <!-- second -->
+        <div class="text-xl space-y-5 text-white">
+            <p>Product</p>
+            <p>Services</p>
+            <p>Contact us</p>
+        </div>
+        <!-- third -->
+        <div class="pt-10 lg:p-16">
+            <p class="font-bold text-xl pb-5 text-white">Follow Us</p>
+            <div class="space-x-5 text-xl text-white">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 
 </html>
